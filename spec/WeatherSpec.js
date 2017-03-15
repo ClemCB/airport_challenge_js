@@ -1,6 +1,5 @@
-//returns stormy when random number is over 0.8
-
 describe('Weather', function() {
+  var thisWeather;
 
   beforeEach(function(){
     thisWeather = new weather();
