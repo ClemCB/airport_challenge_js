@@ -2,7 +2,7 @@ describe('Weather', function() {
   var thisWeather;
 
   beforeEach(function(){
-    thisWeather = new weather();
+    thisWeather = new Weather();
     spyOn(thisWeather, 'isWeatherStormy').and.returnValue(true);
   });
 

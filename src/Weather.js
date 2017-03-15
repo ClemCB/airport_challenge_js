@@ -1,8 +1,8 @@
-function weather() {
+function Weather() {
 
 }
 
-weather.prototype.isWeatherStormy = function() {
+Weather.prototype.isWeatherStormy = function() {
   if (Math.random() >= 0.8) {
     return true;
   } else {
